@@ -1,0 +1,1614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B022C1420B35F4800218A28 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8B022C1320B35F4800218A28 /* Intents.intentdefinition */; };
+		8B022C1720B365F700218A28 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8B022C1320B35F4800218A28 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		8B022C1820B365F900218A28 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8B022C1320B35F4800218A28 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		8B3FFF3320B20B8D00B21257 /* OrderDataWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B71298220B1EDD500247F22 /* OrderDataWatch.framework */; };
+		8B541DF220B1FDB6000467B3 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B541DF120B1FDB6000467B3 /* IntentHandler.swift */; };
+		8B541DF620B1FDB6000467B3 /* CoffeeOrderIntentsWatch.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B541DEF20B1FDB5000467B3 /* CoffeeOrderIntentsWatch.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B6F045620B728600002037E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8B022C1320B35F4800218A28 /* Intents.intentdefinition */; };
+		8B6F045720B728610002037E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8B022C1320B35F4800218A28 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		8B6F045820B728620002037E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8B022C1320B35F4800218A28 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		8B6F045920B728630002037E /* Intents.intentdefinition in Resources */ = {isa = PBXBuildFile; fileRef = 8B022C1320B35F4800218A28 /* Intents.intentdefinition */; };
+		8B6F045E20B732830002037E /* Mint54p.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F045C20B732830002037E /* Mint54p.png */; };
+		8B6F045F20B732830002037E /* Mint62p.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6F045D20B732830002037E /* Mint62p.png */; };
+		8B71295020B1E7F200247F22 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B71294E20B1E7F200247F22 /* Interface.storyboard */; };
+		8B71295920B1E7F200247F22 /* CoffeeWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B71295820B1E7F200247F22 /* CoffeeWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B71295E20B1E7F200247F22 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71295D20B1E7F200247F22 /* InterfaceController.swift */; };
+		8B71296020B1E7F200247F22 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71295F20B1E7F200247F22 /* ExtensionDelegate.swift */; };
+		8B71296220B1E7F200247F22 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71296120B1E7F200247F22 /* NotificationController.swift */; };
+		8B71296420B1E7F300247F22 /* WatchExtensionAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B71296320B1E7F300247F22 /* WatchExtensionAssets.xcassets */; };
+		8B71296920B1E7F300247F22 /* CoffeeWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8B71294C20B1E7F200247F22 /* CoffeeWatch.app */; };
+		8B71297920B1ED7500247F22 /* OrderData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9A2C20B0D41000E14869 /* OrderData.framework */; };
+		8B71297C20B1ED8100247F22 /* OrderData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9A2C20B0D41000E14869 /* OrderData.framework */; };
+		8B71298620B1EDD500247F22 /* OrderDataWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B71298420B1EDD500247F22 /* OrderDataWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B71298920B1EDD500247F22 /* OrderDataWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B71298220B1EDD500247F22 /* OrderDataWatch.framework */; };
+		8B71298B20B1EDD500247F22 /* OrderDataWatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B71298220B1EDD500247F22 /* OrderDataWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B71298F20B1EDDE00247F22 /* PickUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391D46320B0943F006AB74C /* PickUp.swift */; };
+		8B71299020B1EDE500247F22 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE9A2320B0C47300E14869 /* Data.swift */; };
+		8B71299120B1EDF100247F22 /* OrderIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB128EB20B0F71600A0ECAB /* OrderIntentHandler.swift */; };
+		8B71299320B1EE6200247F22 /* SimpleOrder+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71299220B1EE6200247F22 /* SimpleOrder+Image.swift */; };
+		8B71299520B1EEF300247F22 /* SimpleOrder+ImageWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71299420B1EEF300247F22 /* SimpleOrder+ImageWatch.swift */; };
+		8B71299920B1F2BC00247F22 /* OrderDataAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE9A3C20B0D8DA00E14869 /* OrderDataAssets.xcassets */; };
+		8BB128C320B0E90500A0ECAB /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9A4620B0E7D100E14869 /* Intents.framework */; };
+		8BB128C420B0E90500A0ECAB /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9A4720B0E7D100E14869 /* IntentsUI.framework */; };
+		8BB128CC20B0EDDC00A0ECAB /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB128CB20B0EDDC00A0ECAB /* IntentHandler.swift */; };
+		8BB128D320B0EDDC00A0ECAB /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9A4720B0E7D100E14869 /* IntentsUI.framework */; };
+		8BB128D620B0EDDC00A0ECAB /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB128D520B0EDDC00A0ECAB /* IntentViewController.swift */; };
+		8BB128D920B0EDDC00A0ECAB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB128D720B0EDDC00A0ECAB /* MainInterface.storyboard */; };
+		8BB128DD20B0EDDC00A0ECAB /* CoffeeOrderIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BB128D220B0EDDC00A0ECAB /* CoffeeOrderIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BB128E020B0EDDC00A0ECAB /* CoffeeOrderIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BB128C920B0EDDC00A0ECAB /* CoffeeOrderIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BB128E820B0EE1000A0ECAB /* PickUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391D46320B0943F006AB74C /* PickUp.swift */; };
+		8BB128EA20B0F2F300A0ECAB /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB128E920B0F2F300A0ECAB /* Media.xcassets */; };
+		8BB128EC20B0F71600A0ECAB /* OrderIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB128EB20B0F71600A0ECAB /* OrderIntentHandler.swift */; };
+		8BD05CF420B4EC1C003AE0CF /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46B20B0A3AD006AB74C /* GothamRounded-Bold.otf */; };
+		8BD05CF520B4EC1C003AE0CF /* GothamRounded-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46620B0A3AB006AB74C /* GothamRounded-BoldItalic.otf */; };
+		8BD05CF620B4EC1C003AE0CF /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46920B0A3AC006AB74C /* GothamRounded-Book.otf */; };
+		8BD05CF720B4EC1C003AE0CF /* GothamRounded-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46720B0A3AB006AB74C /* GothamRounded-BookItalic.otf */; };
+		8BD05CF820B4EC1C003AE0CF /* GothamRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46820B0A3AC006AB74C /* GothamRounded-Light.otf */; };
+		8BD05CF920B4EC1C003AE0CF /* GothamRounded-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46A20B0A3AC006AB74C /* GothamRounded-LightItalic.otf */; };
+		8BD05CFA20B4EC1C003AE0CF /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46520B0A3AB006AB74C /* GothamRounded-Medium.otf */; };
+		8BD05CFB20B4EC1C003AE0CF /* GothamRounded-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46C20B0A3AD006AB74C /* GothamRounded-MediumItalic.otf */; };
+		8BDE9A3020B0D41000E14869 /* OrderData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDE9A2E20B0D41000E14869 /* OrderData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BDE9A3320B0D41000E14869 /* OrderData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9A2C20B0D41000E14869 /* OrderData.framework */; };
+		8BDE9A3420B0D41000E14869 /* OrderData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE9A2C20B0D41000E14869 /* OrderData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8BDE9A3920B0D42100E14869 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE9A2320B0C47300E14869 /* Data.swift */; };
+		8BDE9A3D20B0D8DA00E14869 /* OrderDataAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE9A3C20B0D8DA00E14869 /* OrderDataAssets.xcassets */; };
+		8BEF5E6720B5E3FA00D65A8F /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8B022C1320B35F4800218A28 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		B391D45020B092A1006AB74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391D44F20B092A1006AB74C /* AppDelegate.swift */; };
+		B391D45220B092A1006AB74C /* CaroulselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391D45120B092A1006AB74C /* CaroulselViewController.swift */; };
+		B391D45520B092A1006AB74C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B391D45320B092A1006AB74C /* Main.storyboard */; };
+		B391D46D20B0A3AD006AB74C /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46520B0A3AB006AB74C /* GothamRounded-Medium.otf */; };
+		B391D46E20B0A3AD006AB74C /* GothamRounded-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46620B0A3AB006AB74C /* GothamRounded-BoldItalic.otf */; };
+		B391D46F20B0A3AD006AB74C /* GothamRounded-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46720B0A3AB006AB74C /* GothamRounded-BookItalic.otf */; };
+		B391D47020B0A3AD006AB74C /* GothamRounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46820B0A3AC006AB74C /* GothamRounded-Light.otf */; };
+		B391D47120B0A3AD006AB74C /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46920B0A3AC006AB74C /* GothamRounded-Book.otf */; };
+		B391D47220B0A3AD006AB74C /* GothamRounded-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46A20B0A3AC006AB74C /* GothamRounded-LightItalic.otf */; };
+		B391D47320B0A3AD006AB74C /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46B20B0A3AD006AB74C /* GothamRounded-Bold.otf */; };
+		B391D47420B0A3AD006AB74C /* GothamRounded-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B391D46C20B0A3AD006AB74C /* GothamRounded-MediumItalic.otf */; };
+		B391D49120B0B8DF006AB74C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391D49020B0B8DF006AB74C /* CartViewController.swift */; };
+		B391D49320B0B923006AB74C /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391D49220B0B923006AB74C /* OrderConfirmationViewController.swift */; };
+		F235410E219743A40069DD9F /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F235410D219743A40069DD9F /* Main.xcassets */; };
+		F2354110219744A40069DD9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F235410F219744A40069DD9F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B29593620B2160200C505E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B71298120B1EDD500247F22;
+			remoteInfo = OrderDataWatch;
+		};
+		8B541DF420B1FDB6000467B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B541DEE20B1FDB5000467B3;
+			remoteInfo = ConffeeOrderIntentsWatch;
+		};
+		8B71295A20B1E7F200247F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B71295720B1E7F200247F22;
+			remoteInfo = "PhilzCoffeeWatch Extension";
+		};
+		8B71296720B1E7F300247F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B71294B20B1E7F200247F22;
+			remoteInfo = PhilzCoffeeWatch;
+		};
+		8B71297720B1ED7100247F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BDE9A2B20B0D41000E14869;
+			remoteInfo = OrderData;
+		};
+		8B71297A20B1ED7B00247F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BDE9A2B20B0D41000E14869;
+			remoteInfo = OrderData;
+		};
+		8B71298720B1EDD500247F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B71298120B1EDD500247F22;
+			remoteInfo = OrderDataWatch;
+		};
+		8BB128DB20B0EDDC00A0ECAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB128D120B0EDDC00A0ECAB;
+			remoteInfo = CoffeeOrderIntentsUI;
+		};
+		8BB128DE20B0EDDC00A0ECAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB128C820B0EDDC00A0ECAB;
+			remoteInfo = CoffeeOrderIntents;
+		};
+		8BDE9A3120B0D41000E14869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B391D44420B092A1006AB74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BDE9A2B20B0D41000E14869;
+			remoteInfo = OrderData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B541DFA20B1FDB6000467B3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B541DF620B1FDB6000467B3 /* CoffeeOrderIntentsWatch.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71296D20B1E7F300247F22 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B71295920B1E7F200247F22 /* CoffeeWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71297120B1E7F300247F22 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8B71296920B1E7F300247F22 /* CoffeeWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71298A20B1EDD500247F22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B71298B20B1EDD500247F22 /* OrderDataWatch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB128E720B0EDDC00A0ECAB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8BB128DD20B0EDDC00A0ECAB /* CoffeeOrderIntentsUI.appex in Embed App Extensions */,
+				8BB128E020B0EDDC00A0ECAB /* CoffeeOrderIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDE9A3820B0D41000E14869 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8BDE9A3420B0D41000E14869 /* OrderData.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B022C1320B35F4800218A28 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		8B541DEF20B1FDB5000467B3 /* CoffeeOrderIntentsWatch.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoffeeOrderIntentsWatch.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B541DF120B1FDB6000467B3 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		8B541DF320B1FDB6000467B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B541DFC20B205B1000467B3 /* CoffeeWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CoffeeWatch Extension.entitlements"; sourceTree = "<group>"; };
+		8B541DFD20B205E6000467B3 /* CoffeeOrderIntentsWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoffeeOrderIntentsWatch.entitlements; sourceTree = "<group>"; };
+		8B6F045C20B732830002037E /* Mint54p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mint54p.png; sourceTree = "<group>"; };
+		8B6F045D20B732830002037E /* Mint62p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mint62p.png; sourceTree = "<group>"; };
+		8B71294C20B1E7F200247F22 /* CoffeeWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B71294F20B1E7F200247F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8B71295320B1E7F200247F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B71295820B1E7F200247F22 /* CoffeeWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoffeeWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B71295D20B1E7F200247F22 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8B71295F20B1E7F200247F22 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8B71296120B1E7F200247F22 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8B71296320B1E7F300247F22 /* WatchExtensionAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WatchExtensionAssets.xcassets; sourceTree = "<group>"; };
+		8B71296520B1E7F300247F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B71296620B1E7F300247F22 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8B71298220B1EDD500247F22 /* OrderDataWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderDataWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B71298420B1EDD500247F22 /* OrderDataWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDataWatch.h; sourceTree = "<group>"; };
+		8B71298520B1EDD500247F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B71299220B1EE6200247F22 /* SimpleOrder+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SimpleOrder+Image.swift"; sourceTree = "<group>"; };
+		8B71299420B1EEF300247F22 /* SimpleOrder+ImageWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SimpleOrder+ImageWatch.swift"; sourceTree = "<group>"; };
+		8B89E3BE20B343ED00EAC7BD /* CoffeeOrderIntents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoffeeOrderIntents.entitlements; sourceTree = "<group>"; };
+		8B89E3BF20B343F300EAC7BD /* CoffeeOrderIntentsUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoffeeOrderIntentsUI.entitlements; sourceTree = "<group>"; };
+		8BB128C920B0EDDC00A0ECAB /* CoffeeOrderIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoffeeOrderIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB128CB20B0EDDC00A0ECAB /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		8BB128CD20B0EDDC00A0ECAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB128D220B0EDDC00A0ECAB /* CoffeeOrderIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CoffeeOrderIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB128D520B0EDDC00A0ECAB /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		8BB128D820B0EDDC00A0ECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8BB128DA20B0EDDC00A0ECAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB128E920B0F2F300A0ECAB /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		8BB128EB20B0F71600A0ECAB /* OrderIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderIntentHandler.swift; sourceTree = "<group>"; };
+		8BB128EF20B1035500A0ECAB /* Coffee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coffee.entitlements; sourceTree = "<group>"; };
+		8BDE9A2320B0C47300E14869 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8BDE9A2C20B0D41000E14869 /* OrderData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OrderData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDE9A2E20B0D41000E14869 /* OrderData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderData.h; sourceTree = "<group>"; };
+		8BDE9A2F20B0D41000E14869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDE9A3C20B0D8DA00E14869 /* OrderDataAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = OrderDataAssets.xcassets; sourceTree = "<group>"; };
+		8BDE9A4620B0E7D100E14869 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		8BDE9A4720B0E7D100E14869 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		B391D44C20B092A1006AB74C /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B391D44F20B092A1006AB74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B391D45120B092A1006AB74C /* CaroulselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaroulselViewController.swift; sourceTree = "<group>"; };
+		B391D45420B092A1006AB74C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B391D45B20B092A2006AB74C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B391D46320B0943F006AB74C /* PickUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUp.swift; sourceTree = "<group>"; };
+		B391D46520B0A3AB006AB74C /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		B391D46620B0A3AB006AB74C /* GothamRounded-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BoldItalic.otf"; sourceTree = "<group>"; };
+		B391D46720B0A3AB006AB74C /* GothamRounded-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-BookItalic.otf"; sourceTree = "<group>"; };
+		B391D46820B0A3AC006AB74C /* GothamRounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Light.otf"; sourceTree = "<group>"; };
+		B391D46920B0A3AC006AB74C /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		B391D46A20B0A3AC006AB74C /* GothamRounded-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-LightItalic.otf"; sourceTree = "<group>"; };
+		B391D46B20B0A3AD006AB74C /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		B391D46C20B0A3AD006AB74C /* GothamRounded-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-MediumItalic.otf"; sourceTree = "<group>"; };
+		B391D49020B0B8DF006AB74C /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		B391D49220B0B923006AB74C /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		F235410D219743A40069DD9F /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
+		F235410F219744A40069DD9F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B541DEC20B1FDB5000467B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3FFF3320B20B8D00B21257 /* OrderDataWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71295520B1E7F200247F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71298920B1EDD500247F22 /* OrderDataWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71297F20B1EDD500247F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB128C620B0EDDC00A0ECAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71297C20B1ED8100247F22 /* OrderData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB128CF20B0EDDC00A0ECAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71297920B1ED7500247F22 /* OrderData.framework in Frameworks */,
+				8BB128D320B0EDDC00A0ECAB /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDE9A2920B0D41000E14869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB128C320B0E90500A0ECAB /* Intents.framework in Frameworks */,
+				8BB128C420B0E90500A0ECAB /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B391D44920B092A1006AB74C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE9A3320B0D41000E14869 /* OrderData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B541DF020B1FDB6000467B3 /* CoffeeOrderIntentsWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8B541DF120B1FDB6000467B3 /* IntentHandler.swift */,
+				8B541DF320B1FDB6000467B3 /* Info.plist */,
+			);
+			path = CoffeeOrderIntentsWatch;
+			sourceTree = "<group>";
+		};
+		8B71294D20B1E7F200247F22 /* CoffeeWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8B71294E20B1E7F200247F22 /* Interface.storyboard */,
+				8B71295320B1E7F200247F22 /* Info.plist */,
+			);
+			path = CoffeeWatch;
+			sourceTree = "<group>";
+		};
+		8B71295C20B1E7F200247F22 /* CoffeeWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B541DFC20B205B1000467B3 /* CoffeeWatch Extension.entitlements */,
+				8B71295D20B1E7F200247F22 /* InterfaceController.swift */,
+				8B71295F20B1E7F200247F22 /* ExtensionDelegate.swift */,
+				8B71296120B1E7F200247F22 /* NotificationController.swift */,
+				8B71296320B1E7F300247F22 /* WatchExtensionAssets.xcassets */,
+				8B6F045C20B732830002037E /* Mint54p.png */,
+				8B6F045D20B732830002037E /* Mint62p.png */,
+				8B71296520B1E7F300247F22 /* Info.plist */,
+				8B71296620B1E7F300247F22 /* PushNotificationPayload.apns */,
+			);
+			path = "CoffeeWatch Extension";
+			sourceTree = "<group>";
+		};
+		8B71298320B1EDD500247F22 /* OrderDataWatch */ = {
+			isa = PBXGroup;
+			children = (
+				8B71298420B1EDD500247F22 /* OrderDataWatch.h */,
+				8B71298520B1EDD500247F22 /* Info.plist */,
+			);
+			path = OrderDataWatch;
+			sourceTree = "<group>";
+		};
+		8BB128CA20B0EDDC00A0ECAB /* CoffeeOrderIntents */ = {
+			isa = PBXGroup;
+			children = (
+				8B89E3BE20B343ED00EAC7BD /* CoffeeOrderIntents.entitlements */,
+				8BB128CB20B0EDDC00A0ECAB /* IntentHandler.swift */,
+				8BB128CD20B0EDDC00A0ECAB /* Info.plist */,
+			);
+			path = CoffeeOrderIntents;
+			sourceTree = "<group>";
+		};
+		8BB128D420B0EDDC00A0ECAB /* CoffeeOrderIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				8B89E3BF20B343F300EAC7BD /* CoffeeOrderIntentsUI.entitlements */,
+				8BB128D520B0EDDC00A0ECAB /* IntentViewController.swift */,
+				8BB128D720B0EDDC00A0ECAB /* MainInterface.storyboard */,
+				8BB128DA20B0EDDC00A0ECAB /* Info.plist */,
+				8BB128E920B0F2F300A0ECAB /* Media.xcassets */,
+			);
+			path = CoffeeOrderIntentsUI;
+			sourceTree = "<group>";
+		};
+		8BDE9A2D20B0D41000E14869 /* OrderData */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE9A3C20B0D8DA00E14869 /* OrderDataAssets.xcassets */,
+				B391D46320B0943F006AB74C /* PickUp.swift */,
+				8BDE9A2320B0C47300E14869 /* Data.swift */,
+				8B71299220B1EE6200247F22 /* SimpleOrder+Image.swift */,
+				8B71299420B1EEF300247F22 /* SimpleOrder+ImageWatch.swift */,
+				8BDE9A2E20B0D41000E14869 /* OrderData.h */,
+				8BDE9A2F20B0D41000E14869 /* Info.plist */,
+				8BB128EB20B0F71600A0ECAB /* OrderIntentHandler.swift */,
+				8B022C1320B35F4800218A28 /* Intents.intentdefinition */,
+			);
+			path = OrderData;
+			sourceTree = "<group>";
+		};
+		8BDE9A4520B0E7D100E14869 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE9A4620B0E7D100E14869 /* Intents.framework */,
+				8BDE9A4720B0E7D100E14869 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B391D44320B092A1006AB74C = {
+			isa = PBXGroup;
+			children = (
+				8B541DFD20B205E6000467B3 /* CoffeeOrderIntentsWatch.entitlements */,
+				B391D44E20B092A1006AB74C /* Coffee */,
+				8BDE9A2D20B0D41000E14869 /* OrderData */,
+				8BB128CA20B0EDDC00A0ECAB /* CoffeeOrderIntents */,
+				8BB128D420B0EDDC00A0ECAB /* CoffeeOrderIntentsUI */,
+				8B71294D20B1E7F200247F22 /* CoffeeWatch */,
+				8B71295C20B1E7F200247F22 /* CoffeeWatch Extension */,
+				8B71298320B1EDD500247F22 /* OrderDataWatch */,
+				8B541DF020B1FDB6000467B3 /* CoffeeOrderIntentsWatch */,
+				B391D44D20B092A1006AB74C /* Products */,
+				8BDE9A4520B0E7D100E14869 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		B391D44D20B092A1006AB74C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B391D44C20B092A1006AB74C /* Coffee.app */,
+				8BDE9A2C20B0D41000E14869 /* OrderData.framework */,
+				8BB128C920B0EDDC00A0ECAB /* CoffeeOrderIntents.appex */,
+				8BB128D220B0EDDC00A0ECAB /* CoffeeOrderIntentsUI.appex */,
+				8B71294C20B1E7F200247F22 /* CoffeeWatch.app */,
+				8B71295820B1E7F200247F22 /* CoffeeWatch Extension.appex */,
+				8B71298220B1EDD500247F22 /* OrderDataWatch.framework */,
+				8B541DEF20B1FDB5000467B3 /* CoffeeOrderIntentsWatch.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B391D44E20B092A1006AB74C /* Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				8BB128EF20B1035500A0ECAB /* Coffee.entitlements */,
+				B391D49520B0B94E006AB74C /* Fonts */,
+				B391D44F20B092A1006AB74C /* AppDelegate.swift */,
+				B391D45120B092A1006AB74C /* CaroulselViewController.swift */,
+				B391D49020B0B8DF006AB74C /* CartViewController.swift */,
+				B391D49220B0B923006AB74C /* OrderConfirmationViewController.swift */,
+				B391D45320B092A1006AB74C /* Main.storyboard */,
+				B391D45B20B092A2006AB74C /* Info.plist */,
+				F235410D219743A40069DD9F /* Main.xcassets */,
+				F235410F219744A40069DD9F /* LaunchScreen.storyboard */,
+			);
+			path = Coffee;
+			sourceTree = "<group>";
+		};
+		B391D49520B0B94E006AB74C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B391D46B20B0A3AD006AB74C /* GothamRounded-Bold.otf */,
+				B391D46620B0A3AB006AB74C /* GothamRounded-BoldItalic.otf */,
+				B391D46920B0A3AC006AB74C /* GothamRounded-Book.otf */,
+				B391D46720B0A3AB006AB74C /* GothamRounded-BookItalic.otf */,
+				B391D46820B0A3AC006AB74C /* GothamRounded-Light.otf */,
+				B391D46A20B0A3AC006AB74C /* GothamRounded-LightItalic.otf */,
+				B391D46520B0A3AB006AB74C /* GothamRounded-Medium.otf */,
+				B391D46C20B0A3AD006AB74C /* GothamRounded-MediumItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B71297D20B1EDD500247F22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71298620B1EDD500247F22 /* OrderDataWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDE9A2720B0D41000E14869 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE9A3020B0D41000E14869 /* OrderData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B541DEE20B1FDB5000467B3 /* CoffeeOrderIntentsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B541DF720B1FDB6000467B3 /* Build configuration list for PBXNativeTarget "CoffeeOrderIntentsWatch" */;
+			buildPhases = (
+				8B541DEB20B1FDB5000467B3 /* Sources */,
+				8B541DEC20B1FDB5000467B3 /* Frameworks */,
+				8B541DED20B1FDB5000467B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B29593720B2160200C505E1 /* PBXTargetDependency */,
+			);
+			name = CoffeeOrderIntentsWatch;
+			productName = ConffeeOrderIntentsWatch;
+			productReference = 8B541DEF20B1FDB5000467B3 /* CoffeeOrderIntentsWatch.appex */;
+			productType = "com.apple.product-type.app-extension.intents-service";
+		};
+		8B71294B20B1E7F200247F22 /* CoffeeWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B71296E20B1E7F300247F22 /* Build configuration list for PBXNativeTarget "CoffeeWatch" */;
+			buildPhases = (
+				8B71294A20B1E7F200247F22 /* Resources */,
+				8B71296D20B1E7F300247F22 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B71295B20B1E7F200247F22 /* PBXTargetDependency */,
+			);
+			name = CoffeeWatch;
+			productName = PhilzCoffeeWatch;
+			productReference = 8B71294C20B1E7F200247F22 /* CoffeeWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8B71295720B1E7F200247F22 /* CoffeeWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B71296A20B1E7F300247F22 /* Build configuration list for PBXNativeTarget "CoffeeWatch Extension" */;
+			buildPhases = (
+				8B71295420B1E7F200247F22 /* Sources */,
+				8B71295520B1E7F200247F22 /* Frameworks */,
+				8B71295620B1E7F200247F22 /* Resources */,
+				8B71298A20B1EDD500247F22 /* Embed Frameworks */,
+				8B541DFA20B1FDB6000467B3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B71298820B1EDD500247F22 /* PBXTargetDependency */,
+				8B541DF520B1FDB6000467B3 /* PBXTargetDependency */,
+			);
+			name = "CoffeeWatch Extension";
+			productName = "PhilzCoffeeWatch Extension";
+			productReference = 8B71295820B1E7F200247F22 /* CoffeeWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		8B71298120B1EDD500247F22 /* OrderDataWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B71298C20B1EDD500247F22 /* Build configuration list for PBXNativeTarget "OrderDataWatch" */;
+			buildPhases = (
+				8B71297D20B1EDD500247F22 /* Headers */,
+				8B71297E20B1EDD500247F22 /* Sources */,
+				8B71297F20B1EDD500247F22 /* Frameworks */,
+				8B71298020B1EDD500247F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderDataWatch;
+			productName = OrderDataWatch;
+			productReference = 8B71298220B1EDD500247F22 /* OrderDataWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BB128C820B0EDDC00A0ECAB /* CoffeeOrderIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB128E420B0EDDC00A0ECAB /* Build configuration list for PBXNativeTarget "CoffeeOrderIntents" */;
+			buildPhases = (
+				8BB128C520B0EDDC00A0ECAB /* Sources */,
+				8BB128C620B0EDDC00A0ECAB /* Frameworks */,
+				8BB128C720B0EDDC00A0ECAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B71297B20B1ED7B00247F22 /* PBXTargetDependency */,
+			);
+			name = CoffeeOrderIntents;
+			productName = CoffeeOrderIntents;
+			productReference = 8BB128C920B0EDDC00A0ECAB /* CoffeeOrderIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8BB128D120B0EDDC00A0ECAB /* CoffeeOrderIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB128E120B0EDDC00A0ECAB /* Build configuration list for PBXNativeTarget "CoffeeOrderIntentsUI" */;
+			buildPhases = (
+				8BB128CE20B0EDDC00A0ECAB /* Sources */,
+				8BB128CF20B0EDDC00A0ECAB /* Frameworks */,
+				8BB128D020B0EDDC00A0ECAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B71297820B1ED7100247F22 /* PBXTargetDependency */,
+			);
+			name = CoffeeOrderIntentsUI;
+			productName = CoffeeOrderIntentsUI;
+			productReference = 8BB128D220B0EDDC00A0ECAB /* CoffeeOrderIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8BDE9A2B20B0D41000E14869 /* OrderData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDE9A3520B0D41000E14869 /* Build configuration list for PBXNativeTarget "OrderData" */;
+			buildPhases = (
+				8BDE9A2720B0D41000E14869 /* Headers */,
+				8BDE9A2820B0D41000E14869 /* Sources */,
+				8BDE9A2920B0D41000E14869 /* Frameworks */,
+				8BDE9A2A20B0D41000E14869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderData;
+			productName = OrderData;
+			productReference = 8BDE9A2C20B0D41000E14869 /* OrderData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B391D44B20B092A1006AB74C /* Coffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B391D45E20B092A2006AB74C /* Build configuration list for PBXNativeTarget "Coffee" */;
+			buildPhases = (
+				B391D44820B092A1006AB74C /* Sources */,
+				B391D44920B092A1006AB74C /* Frameworks */,
+				B391D44A20B092A1006AB74C /* Resources */,
+				8BDE9A3820B0D41000E14869 /* Embed Frameworks */,
+				8BB128E720B0EDDC00A0ECAB /* Embed App Extensions */,
+				8B71297120B1E7F300247F22 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BDE9A3220B0D41000E14869 /* PBXTargetDependency */,
+				8BB128DC20B0EDDC00A0ECAB /* PBXTargetDependency */,
+				8BB128DF20B0EDDC00A0ECAB /* PBXTargetDependency */,
+				8B71296820B1E7F300247F22 /* PBXTargetDependency */,
+			);
+			name = Coffee;
+			productName = PhilzCoffee;
+			productReference = B391D44C20B092A1006AB74C /* Coffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B391D44420B092A1006AB74C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Philz Coffee";
+				TargetAttributes = {
+					8B541DEE20B1FDB5000467B3 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8B71294B20B1E7F200247F22 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8B71295720B1E7F200247F22 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					8B71298120B1EDD500247F22 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8BB128C820B0EDDC00A0ECAB = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8BB128D120B0EDDC00A0ECAB = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8BDE9A2B20B0D41000E14869 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B391D44B20B092A1006AB74C = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B391D44720B092A1006AB74C /* Build configuration list for PBXProject "coffee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = "pt-BR";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"pt-BR",
+				Base,
+			);
+			mainGroup = B391D44320B092A1006AB74C;
+			productRefGroup = B391D44D20B092A1006AB74C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B391D44B20B092A1006AB74C /* Coffee */,
+				8BB128C820B0EDDC00A0ECAB /* CoffeeOrderIntents */,
+				8BB128D120B0EDDC00A0ECAB /* CoffeeOrderIntentsUI */,
+				8B71294B20B1E7F200247F22 /* CoffeeWatch */,
+				8B71295720B1E7F200247F22 /* CoffeeWatch Extension */,
+				8B541DEE20B1FDB5000467B3 /* CoffeeOrderIntentsWatch */,
+				8BDE9A2B20B0D41000E14869 /* OrderData */,
+				8B71298120B1EDD500247F22 /* OrderDataWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B541DED20B1FDB5000467B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71294A20B1E7F200247F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6F045920B728630002037E /* Intents.intentdefinition in Resources */,
+				8B71295020B1E7F200247F22 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71295620B1E7F200247F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6F045F20B732830002037E /* Mint62p.png in Resources */,
+				8B71296420B1E7F300247F22 /* WatchExtensionAssets.xcassets in Resources */,
+				8B6F045E20B732830002037E /* Mint54p.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71298020B1EDD500247F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71299920B1F2BC00247F22 /* OrderDataAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB128C720B0EDDC00A0ECAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB128D020B0EDDC00A0ECAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD05CFB20B4EC1C003AE0CF /* GothamRounded-MediumItalic.otf in Resources */,
+				8BD05CF920B4EC1C003AE0CF /* GothamRounded-LightItalic.otf in Resources */,
+				8BD05CF720B4EC1C003AE0CF /* GothamRounded-BookItalic.otf in Resources */,
+				8BD05CF520B4EC1C003AE0CF /* GothamRounded-BoldItalic.otf in Resources */,
+				8BD05CFA20B4EC1C003AE0CF /* GothamRounded-Medium.otf in Resources */,
+				8BB128EA20B0F2F300A0ECAB /* Media.xcassets in Resources */,
+				8BD05CF820B4EC1C003AE0CF /* GothamRounded-Light.otf in Resources */,
+				8BD05CF620B4EC1C003AE0CF /* GothamRounded-Book.otf in Resources */,
+				8BB128D920B0EDDC00A0ECAB /* MainInterface.storyboard in Resources */,
+				8BD05CF420B4EC1C003AE0CF /* GothamRounded-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDE9A2A20B0D41000E14869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BDE9A3D20B0D8DA00E14869 /* OrderDataAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B391D44A20B092A1006AB74C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B391D47420B0A3AD006AB74C /* GothamRounded-MediumItalic.otf in Resources */,
+				B391D47220B0A3AD006AB74C /* GothamRounded-LightItalic.otf in Resources */,
+				B391D47120B0A3AD006AB74C /* GothamRounded-Book.otf in Resources */,
+				F235410E219743A40069DD9F /* Main.xcassets in Resources */,
+				B391D47020B0A3AD006AB74C /* GothamRounded-Light.otf in Resources */,
+				B391D46E20B0A3AD006AB74C /* GothamRounded-BoldItalic.otf in Resources */,
+				B391D46F20B0A3AD006AB74C /* GothamRounded-BookItalic.otf in Resources */,
+				B391D47320B0A3AD006AB74C /* GothamRounded-Bold.otf in Resources */,
+				B391D46D20B0A3AD006AB74C /* GothamRounded-Medium.otf in Resources */,
+				F2354110219744A40069DD9F /* LaunchScreen.storyboard in Resources */,
+				B391D45520B092A1006AB74C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B541DEB20B1FDB5000467B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6F045720B728610002037E /* Intents.intentdefinition in Sources */,
+				8B541DF220B1FDB6000467B3 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71295420B1E7F200247F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71296220B1E7F200247F22 /* NotificationController.swift in Sources */,
+				8B71296020B1E7F200247F22 /* ExtensionDelegate.swift in Sources */,
+				8B6F045820B728620002037E /* Intents.intentdefinition in Sources */,
+				8B71295E20B1E7F200247F22 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B71297E20B1EDD500247F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B71299120B1EDF100247F22 /* OrderIntentHandler.swift in Sources */,
+				8B71298F20B1EDDE00247F22 /* PickUp.swift in Sources */,
+				8B71299520B1EEF300247F22 /* SimpleOrder+ImageWatch.swift in Sources */,
+				8B6F045620B728600002037E /* Intents.intentdefinition in Sources */,
+				8B71299020B1EDE500247F22 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB128C520B0EDDC00A0ECAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B022C1720B365F700218A28 /* Intents.intentdefinition in Sources */,
+				8BB128CC20B0EDDC00A0ECAB /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB128CE20B0EDDC00A0ECAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B022C1820B365F900218A28 /* Intents.intentdefinition in Sources */,
+				8BB128D620B0EDDC00A0ECAB /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDE9A2820B0D41000E14869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B022C1420B35F4800218A28 /* Intents.intentdefinition in Sources */,
+				8BDE9A3920B0D42100E14869 /* Data.swift in Sources */,
+				8B71299320B1EE6200247F22 /* SimpleOrder+Image.swift in Sources */,
+				8BB128E820B0EE1000A0ECAB /* PickUp.swift in Sources */,
+				8BB128EC20B0F71600A0ECAB /* OrderIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B391D44820B092A1006AB74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B391D49320B0B923006AB74C /* OrderConfirmationViewController.swift in Sources */,
+				B391D45220B092A1006AB74C /* CaroulselViewController.swift in Sources */,
+				B391D45020B092A1006AB74C /* AppDelegate.swift in Sources */,
+				8BEF5E6720B5E3FA00D65A8F /* Intents.intentdefinition in Sources */,
+				B391D49120B0B8DF006AB74C /* CartViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B29593720B2160200C505E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B71298120B1EDD500247F22 /* OrderDataWatch */;
+			targetProxy = 8B29593620B2160200C505E1 /* PBXContainerItemProxy */;
+		};
+		8B541DF520B1FDB6000467B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B541DEE20B1FDB5000467B3 /* CoffeeOrderIntentsWatch */;
+			targetProxy = 8B541DF420B1FDB6000467B3 /* PBXContainerItemProxy */;
+		};
+		8B71295B20B1E7F200247F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B71295720B1E7F200247F22 /* CoffeeWatch Extension */;
+			targetProxy = 8B71295A20B1E7F200247F22 /* PBXContainerItemProxy */;
+		};
+		8B71296820B1E7F300247F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B71294B20B1E7F200247F22 /* CoffeeWatch */;
+			targetProxy = 8B71296720B1E7F300247F22 /* PBXContainerItemProxy */;
+		};
+		8B71297820B1ED7100247F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BDE9A2B20B0D41000E14869 /* OrderData */;
+			targetProxy = 8B71297720B1ED7100247F22 /* PBXContainerItemProxy */;
+		};
+		8B71297B20B1ED7B00247F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BDE9A2B20B0D41000E14869 /* OrderData */;
+			targetProxy = 8B71297A20B1ED7B00247F22 /* PBXContainerItemProxy */;
+		};
+		8B71298820B1EDD500247F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B71298120B1EDD500247F22 /* OrderDataWatch */;
+			targetProxy = 8B71298720B1EDD500247F22 /* PBXContainerItemProxy */;
+		};
+		8BB128DC20B0EDDC00A0ECAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB128D120B0EDDC00A0ECAB /* CoffeeOrderIntentsUI */;
+			targetProxy = 8BB128DB20B0EDDC00A0ECAB /* PBXContainerItemProxy */;
+		};
+		8BB128DF20B0EDDC00A0ECAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB128C820B0EDDC00A0ECAB /* CoffeeOrderIntents */;
+			targetProxy = 8BB128DE20B0EDDC00A0ECAB /* PBXContainerItemProxy */;
+		};
+		8BDE9A3220B0D41000E14869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BDE9A2B20B0D41000E14869 /* OrderData */;
+			targetProxy = 8BDE9A3120B0D41000E14869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B71294E20B1E7F200247F22 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B71294F20B1E7F200247F22 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB128D720B0EDDC00A0ECAB /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB128D820B0EDDC00A0ECAB /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		B391D45320B092A1006AB74C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B391D45420B092A1006AB74C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B541DF820B1FDB6000467B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CoffeeOrderIntentsWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CoffeeOrderIntentsWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.watchkitapp.watchkitextension.CoffeeOrderIntentsWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		8B541DF920B1FDB6000467B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CoffeeOrderIntentsWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CoffeeOrderIntentsWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.watchkitapp.watchkitextension.CoffeeOrderIntentsWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		8B71296B20B1E7F300247F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "CoffeeWatch Extension/CoffeeWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CoffeeWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		8B71296C20B1E7F300247F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "CoffeeWatch Extension/CoffeeWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CoffeeWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		8B71296F20B1E7F300247F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CoffeeWatch_Extension;
+				INFOPLIST_FILE = CoffeeWatch/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		8B71297020B1E7F300247F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = CoffeeWatch_Extension;
+				INFOPLIST_FILE = CoffeeWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		8B71298D20B1EDD500247F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OrderDataWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.OrderDataWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		8B71298E20B1EDD500247F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OrderDataWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.OrderDataWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		8BB128E220B0EDDC00A0ECAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CoffeeOrderIntentsUI/CoffeeOrderIntentsUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CoffeeOrderIntentsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.CoffeeOrderIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB128E320B0EDDC00A0ECAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CoffeeOrderIntentsUI/CoffeeOrderIntentsUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CoffeeOrderIntentsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.CoffeeOrderIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BB128E520B0EDDC00A0ECAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CoffeeOrderIntents/CoffeeOrderIntents.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CoffeeOrderIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.CoffeeOrderIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB128E620B0EDDC00A0ECAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CoffeeOrderIntents/CoffeeOrderIntents.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CoffeeOrderIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app.CoffeeOrderIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BDE9A3620B0D41000E14869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OrderData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.OrderData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BDE9A3720B0D41000E14869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OrderData/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.OrderData;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B391D45C20B092A2006AB74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B391D45D20B092A2006AB74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B391D45F20B092A2006AB74C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Coffee/Coffee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Coffee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B391D46020B092A2006AB74C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Coffee/Coffee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Coffee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B541DF720B1FDB6000467B3 /* Build configuration list for PBXNativeTarget "CoffeeOrderIntentsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B541DF820B1FDB6000467B3 /* Debug */,
+				8B541DF920B1FDB6000467B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B71296A20B1E7F300247F22 /* Build configuration list for PBXNativeTarget "CoffeeWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B71296B20B1E7F300247F22 /* Debug */,
+				8B71296C20B1E7F300247F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B71296E20B1E7F300247F22 /* Build configuration list for PBXNativeTarget "CoffeeWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B71296F20B1E7F300247F22 /* Debug */,
+				8B71297020B1E7F300247F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B71298C20B1EDD500247F22 /* Build configuration list for PBXNativeTarget "OrderDataWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B71298D20B1EDD500247F22 /* Debug */,
+				8B71298E20B1EDD500247F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB128E120B0EDDC00A0ECAB /* Build configuration list for PBXNativeTarget "CoffeeOrderIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB128E220B0EDDC00A0ECAB /* Debug */,
+				8BB128E320B0EDDC00A0ECAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB128E420B0EDDC00A0ECAB /* Build configuration list for PBXNativeTarget "CoffeeOrderIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB128E520B0EDDC00A0ECAB /* Debug */,
+				8BB128E620B0EDDC00A0ECAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDE9A3520B0D41000E14869 /* Build configuration list for PBXNativeTarget "OrderData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BDE9A3620B0D41000E14869 /* Debug */,
+				8BDE9A3720B0D41000E14869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B391D44720B092A1006AB74C /* Build configuration list for PBXProject "coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B391D45C20B092A2006AB74C /* Debug */,
+				B391D45D20B092A2006AB74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B391D45E20B092A2006AB74C /* Build configuration list for PBXNativeTarget "Coffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B391D45F20B092A2006AB74C /* Debug */,
+				B391D46020B092A2006AB74C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B391D44420B092A1006AB74C /* Project object */;
+}

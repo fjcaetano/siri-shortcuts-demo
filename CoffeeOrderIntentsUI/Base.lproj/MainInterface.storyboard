@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.10" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GothamRounded-Bold.otf">
+            <string>GothamRounded-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Intent View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="IntentViewController" customModule="CoffeeOrderIntentsUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="357" height="465"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CRA-cM-5EW">
+                                <rect key="frame" x="0.0" y="0.0" width="357" height="456"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9M3-0d-fgG">
+                                        <rect key="frame" x="87" y="24" width="183" height="16"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Pick-up at ">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Cupertino">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    <integer key="NSUnderline" value="1"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" - ">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="9:10am">
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    <integer key="NSUnderline" value="1"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="ConfirmationTitle" translatesAutoresizingMaskIntoConstraints="NO" id="32k-2Y-kgl">
+                                        <rect key="frame" x="55.5" y="50" width="246" height="103"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Mint" translatesAutoresizingMaskIntoConstraints="NO" id="6jP-Mi-xKd">
+                                        <rect key="frame" x="57.5" y="169" width="254" height="287"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="9M3-0d-fgG" firstAttribute="centerX" secondItem="CRA-cM-5EW" secondAttribute="centerX" id="9Qc-Dq-gtQ"/>
+                                    <constraint firstItem="9M3-0d-fgG" firstAttribute="top" secondItem="CRA-cM-5EW" secondAttribute="top" constant="24" id="ImZ-rX-mlK"/>
+                                    <constraint firstItem="6jP-Mi-xKd" firstAttribute="top" secondItem="32k-2Y-kgl" secondAttribute="bottom" constant="16" id="T9A-cV-QUf"/>
+                                    <constraint firstAttribute="bottom" secondItem="6jP-Mi-xKd" secondAttribute="bottom" id="Toj-XG-Nvu"/>
+                                    <constraint firstItem="6jP-Mi-xKd" firstAttribute="centerX" secondItem="CRA-cM-5EW" secondAttribute="centerX" constant="6" id="eKk-MT-Pr7"/>
+                                    <constraint firstItem="32k-2Y-kgl" firstAttribute="centerX" secondItem="CRA-cM-5EW" secondAttribute="centerX" id="jJw-g2-a1g"/>
+                                    <constraint firstItem="32k-2Y-kgl" firstAttribute="top" secondItem="9M3-0d-fgG" secondAttribute="bottom" constant="10" id="xV7-Aq-oMn"/>
+                                </constraints>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MZe-FP-ztJ">
+                                <rect key="frame" x="0.0" y="125" width="357" height="90.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks Mark!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YE5-py-MB2">
+                                        <rect key="frame" x="58.5" y="0.0" width="240" height="36"/>
+                                        <fontDescription key="fontDescription" name="GothamRounded-Bold" family="Gotham Rounded" pointSize="36"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epf-3Y-Kne">
+                                        <rect key="frame" x="87" y="54.5" width="183" height="16"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Pick-up at ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" metaFont="system"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Cupertino">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" metaFont="system"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    <integer key="NSUnderline" value="1"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" - ">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" metaFont="system"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="9:10am">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" metaFont="system"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    <integer key="NSUnderline" value="1"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Epf-3Y-Kne" firstAttribute="firstBaseline" secondItem="YE5-py-MB2" secondAttribute="baseline" constant="38" id="R8o-ki-cey"/>
+                                    <constraint firstItem="YE5-py-MB2" firstAttribute="top" secondItem="MZe-FP-ztJ" secondAttribute="top" id="V1E-cZ-GdD"/>
+                                    <constraint firstItem="Epf-3Y-Kne" firstAttribute="centerX" secondItem="MZe-FP-ztJ" secondAttribute="centerX" id="cjU-X6-j8Z"/>
+                                    <constraint firstItem="YE5-py-MB2" firstAttribute="centerX" secondItem="MZe-FP-ztJ" secondAttribute="centerX" id="dUR-Ye-eZM"/>
+                                    <constraint firstAttribute="bottom" secondItem="Epf-3Y-Kne" secondAttribute="bottom" constant="20" id="z0p-UC-UDY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dX2-na-Ga3">
+                                <rect key="frame" x="0.0" y="465" width="357" height="114"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Item" translatesAutoresizingMaskIntoConstraints="NO" id="g3J-Cm-pxQ">
+                                        <rect key="frame" x="23.5" y="39.5" width="310" height="35"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="g3J-Cm-pxQ" firstAttribute="centerY" secondItem="dX2-na-Ga3" secondAttribute="centerY" id="5PR-8f-nZm"/>
+                                    <constraint firstAttribute="height" constant="114" id="c52-XC-tzt"/>
+                                    <constraint firstItem="g3J-Cm-pxQ" firstAttribute="centerX" secondItem="dX2-na-Ga3" secondAttribute="centerX" id="moZ-eX-pia"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27450980390000002" green="0.90980392160000001" blue="0.58431372550000005" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="MZe-FP-ztJ" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" constant="125" id="0Tn-xb-Tyt"/>
+                            <constraint firstItem="dX2-na-Ga3" firstAttribute="trailing" secondItem="zMn-AG-sqS" secondAttribute="trailing" id="1U1-MT-BTJ"/>
+                            <constraint firstItem="MZe-FP-ztJ" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="NJD-ei-eGL"/>
+                            <constraint firstItem="CRA-cM-5EW" firstAttribute="trailing" secondItem="zMn-AG-sqS" secondAttribute="trailing" id="NTN-RM-y90"/>
+                            <constraint firstItem="CRA-cM-5EW" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="Osp-I0-cFz"/>
+                            <constraint firstItem="MZe-FP-ztJ" firstAttribute="trailing" secondItem="zMn-AG-sqS" secondAttribute="trailing" id="b56-Kh-XaT"/>
+                            <constraint firstItem="CRA-cM-5EW" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" id="m8q-Qf-wgb"/>
+                            <constraint firstItem="dX2-na-Ga3" firstAttribute="bottom" secondItem="zMn-AG-sqS" secondAttribute="bottom" constant="114" id="nY0-4M-auI"/>
+                            <constraint firstItem="dX2-na-Ga3" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="zcG-r2-ZQ5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4PN-XC-lEE"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="357" height="465"/>
+                    <connections>
+                        <outlet property="confirmationPickUp" destination="Epf-3Y-Kne" id="H2U-Ar-Hhk"/>
+                        <outlet property="pickUp" destination="9M3-0d-fgG" id="zch-yi-Pov"/>
+                        <outlet property="receiptBottomConstraint" destination="nY0-4M-auI" id="rvz-Z8-qX0"/>
+                        <outlet property="thanks" destination="YE5-py-MB2" id="HU6-Od-eT2"/>
+                        <outlet property="thanksContainer" destination="MZe-FP-ztJ" id="23w-j8-4p3"/>
+                        <outlet property="topConstraint" destination="m8q-Qf-wgb" id="C5w-Ul-CaQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ConfirmationTitle" width="246" height="103"/>
+        <image name="Item" width="310" height="35"/>
+        <image name="Mint" width="254" height="287"/>
+    </resources>
+</document>
